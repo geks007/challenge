@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(41, 35, 35);
+
+}
+
+
+.container {
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    background-color: rgb(185, 147, 96);
+    height: 400px;
+    width: 400px;
+    border-radius: 4%;
+
+}
+
+.kiri, .tengah, .kanan {
+    display: grid;
+    width: 100px;
+    padding: 5px;
+}
+
+/* computer */
+.kiri button {
+    border-radius: 20%;
+}
+
+.kiri img {
+    background-image: none;
+}
+
+/* player */
+.kanan button {
+    border-radius: 20%;
+}
+
+.kanan {
+    position: relative;
+    margin-left: 100px;
+
+}
+
+/* result */
+.tengah h1 {
+    position: relative;
+    text-align: center;
+    color: rgb(218, 10, 10);
+    padding-top: 11rem;
+    left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+
+}
+
+
+/* reload */
+.reload {
+    position: relative;
+    top: 210px;
+    align-items: center;
+}
+
+.reload button {
+    position: relative;
+    margin-left: 48%;
+    border-radius: 5%;
+
+}
+
+.reload button:hover {
+    background: red;
+}

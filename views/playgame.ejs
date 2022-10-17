@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <!-- player -->
+
+            <div class="kiri">
+                <div class="textP">
+                    <h1>Player:</h1>
+                </div>
+                <button data-choice="scissors" class="choice-user"><img src="assets/img/batu.png"
+                        style="width: 50px;"></button>
+
+                <button data-choice="rock" class="choice-user"><img src="assets/img/gunting.png"
+                        style="width: 50px;"></button>
+
+                <button data-choice="paper" class="choice-user"><img src="assets/img/kertas.png"
+                        style="width: 50px;"></button>
+            </div>
+            <!-- hasil -->
+            <div class="tengah">
+                <h1 class="gareText" id="resultText">VS</h1>
+            </div>
+            <!-- computer -->
+
+            <div class="kanan">
+                <div text>
+                    <h1 class="textC">Com:</h1>
+                </div>
+                <button data-choice="rock" class="choice-com"><img src="assets/img/batu.png" style="width: 50px;"></button>
+
+                <button data-choice="scissors" class="choice-com"><img src="assets/img/gunting.png"
+                        style="width: 50px;"></button>
+
+                <button data-choice="paper" class="choice-com"><img src="assets/img/kertas.png"
+                        style="width: 50px;"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- reload -->
+    <section>
+        <div class="reload">
+            <button type="button" onClick="window.location.reload()"><img src="assets/img/refresh.png"
+                    style="width: 70px;"></button>
+        </div>
+    </section>
+</body>
+<script src="assets/js/index.js"></script>
+
+</html>
