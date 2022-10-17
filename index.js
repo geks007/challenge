@@ -8,7 +8,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
-// app.use('assetss', express.static(path.join(__dirname, 'assetss')))
 
 app.use('/', appRouting);
 
